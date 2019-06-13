@@ -37,27 +37,35 @@ function setBgGreet() {
 
     if (hour < 12) {
         //Morning
-        document.body.style.backgroundImage = "url('../images/beautiful-color-dawn-217114.jpg')";
+        document.body.style.backgroundImage = "url('../images/morning.jpg')";
         greeting.textContent = 'Good Morning';
         document.body.style.backgroundRepeat = "no - repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
         document.body.style.color = 'white';
-    } else if (hour < 18) {
+    } else if (hour < 17) {
         //Afternoon
-        document.body.style.backgroundImage = "url('../images/afternoon-bay-fishing-69224.jpg')";
+        document.body.style.backgroundImage = "url('../images/afternoon.jpg')";
         document.body.style.backgroundRepeat = "no - repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
         greeting.textContent = 'Good Afternoon';
-        document.body.style.color = 'black';
-    } else {
+        document.body.style.color = 'white';
+    } else if (hour < 20) {
         //Evening
-        document.body.style.backgroundImage = "url('../images/pexels-photo-754082.jpeg')";
+        document.body.style.backgroundImage = "url('../images/evening.jpg')";
         document.body.style.backgroundRepeat = "no - repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
         greeting.textContent = 'Good Evening';
+        document.body.style.color = 'black';
+    } else {
+        //Night
+        document.body.style.backgroundImage = "url('../images/night.jpeg')";
+        document.body.style.backgroundRepeat = "no - repeat";
+        document.body.style.backgroundPosition = "center";
+        document.body.style.backgroundSize = "cover";
+        greeting.textContent = 'Good Night';
         document.body.style.color = 'white';
     }
 }
