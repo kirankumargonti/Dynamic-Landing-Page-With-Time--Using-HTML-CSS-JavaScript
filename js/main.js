@@ -53,7 +53,7 @@ function setBgGreet() {
         document.body.style.color = 'white';
     } else if (hour < 20) {
         //Evening
-        document.body.style.backgroundImage = "url('../images/evening.jpg')";
+        document.body.style.backgroundImage = "url('https://images.pexels.com/photos/217114/pexels-photo-217114.jpeg?crop=entropy&cs=srgb&dl=beautiful-color-dawn-217114.jpg&fit=crop&fm=jpg&h=1280&w=1920')";
         document.body.style.backgroundRepeat = "no - repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
