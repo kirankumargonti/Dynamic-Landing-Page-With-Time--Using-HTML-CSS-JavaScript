@@ -37,7 +37,7 @@ function setBgGreet() {
 
     if (hour < 12) {
         //Morning
-        document.body.style.backgroundImage = "url('../images/morning.jpg')";
+        document.body.style.backgroundImage = "url('https://images.pexels.com/photos/217114/pexels-photo-217114.jpeg?crop=entropy&cs=srgb&dl=beautiful-color-dawn-217114.jpg&fit=crop&fm=jpg&h=1280&w=1920')";
         greeting.textContent = 'Good Morning';
         document.body.style.backgroundRepeat = "no - repeat";
         document.body.style.backgroundPosition = "center";
@@ -45,7 +45,7 @@ function setBgGreet() {
         document.body.style.color = 'white';
     } else if (hour < 17) {
         //Afternoon
-        document.body.style.backgroundImage = "url('../images/afternoon.jpg')";
+        document.body.style.backgroundImage = "url('https://images.pexels.com/photos/2421022/pexels-photo-2421022.jpeg?crop=entropy&cs=srgb&dl=big-wheel-carnival-dark-2421022.jpg&fit=crop&fm=jpg&h=1280&w=1920')";
         document.body.style.backgroundRepeat = "no - repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
@@ -61,7 +61,7 @@ function setBgGreet() {
         document.body.style.color = 'black';
     } else {
         //Night
-        document.body.style.backgroundImage = "url('../images/night.jpeg')";
+        document.body.style.backgroundImage = "url('https://images.pexels.com/photos/217114/pexels-photo-217114.jpeg?crop=entropy&cs=srgb&dl=beautiful-color-dawn-217114.jpg&fit=crop&fm=jpg&h=1280&w=1920')";
         document.body.style.backgroundRepeat = "no - repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
